@@ -1,0 +1,67 @@
+# ============================================
+# ReachSMP Configuration
+# ============================================
+
+# Reach settings
+reach:
+  default: 3.0
+  max: 6.0
+  min: 2.0
+  steal-amount: 0.5
+
+# Hit bar (ability bar) settings
+hit-bar:
+  max: 100.0
+  damage-multiplier: 2.5
+  display-length: 20
+  display-interval-ticks: 5
+
+# Grace period settings
+grace-period:
+  duration-minutes: 30
+
+# World border settings
+world-border:
+  size: 2000
+  expand-seconds: 30
+
+# Countdown settings
+countdown:
+  seconds: 5
+
+# Ability settings
+abilities:
+  strength:
+    activated-duration-ticks: 120
+    activated-amplifier: 1
+  resistance:
+    activated-duration-ticks: 120
+    activated-amplifier: 1
+  speed:
+    activated-duration-ticks: 120
+    activated-amplifier: 2
+    haste-amplifier: 2
+  health:
+    permanent-max-health: 26.0
+    activated-max-health: 30.0
+    activated-duration-seconds: 45
+  fire-resistance:
+    activated-radius: 8
+    activated-fire-ticks: 100
+
+# Reach bottle item settings
+reach-bottle:
+  material: EXPERIENCE_BOTTLE
+  name: "Reach +0.5"
+  lore: "Drink to gain +0.5 reach"
+  glowing: true
+
+# Reroll item settings
+reroll-item:
+  material: COMPASS
+  name: "Ability Reroll"
+  lore: "Right-click to reroll your ability"
+  glowing: true
+
+# Auto-save interval in ticks (6000 = 5 minutes)
+auto-save-interval-ticks: 6000
